@@ -1,0 +1,57 @@
+.headerfloat{
+    width:50%;
+    height:30px;
+    float:left;
+    background-color:orangered;
+    color:white;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.navfloat{
+    width: 50%;
+    height:30px;
+    float:left;
+    background-color:orangered;
+    margin-bottom: 5px;
+}
+
+.onel{
+    display:inline;
+    padding-right: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.herounit{
+    width:100%;
+    font-size:200px;
+    text-align: center;
+    background-image:url("/home/user/project/assignment/images/who.png");
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center{
+    width:98%;
+}
+
+.three1{
+    background-color:aqua;
+    height:550px;
+}
+
+.two{
+    margin-top: 20px;
+}
+
+.two1{
+    background-image: url("/home/user/project/assignment/images/map.jpg");
+    height:600px;
+}
+
+footer
+{
+  background-color:gray;
+  clear: both;
+}
