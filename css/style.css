@@ -1,93 +1,136 @@
-header{
-    text-transform: uppercase;
-    width: 100%;
-    height:30px;
-    background-color:lightgray;
-    color:black;
-    margin-bottom:5px;
-    font-size:30px;
-    font-weight: 1000;
+header {
+  text-transform: uppercase;
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  color: black;
+  margin-bottom: 5px;
+  font-size: 50px;
+  font-weight: 1000;
 }
 
-nav{
-    font-size:20px;
-    text-transform: capitalize;
-    float:right;
-    height:30px;
-    background-color:lightgray;
-    margin-bottom: 5px;
-    font-weight: 100;
+nav {
+  font-size: 20px;
+  text-transform: capitalize;
+  float: right;
+  height: 30px;
+  background-color: lightgray;
+  margin-bottom: 5px;
+  font-weight: 100;
 }
 
-.onel{
-    display:inline;
-    padding-right: 50px;
+.onel {
+  display: inline;
+  padding-right: 50px;
 }
 
-.main{
-    margin-top: 30px;
-    width:100%;
-    font-size:200px;
-    text-align: center;
-    background-image:url("/home/user/project/assignment/img/who.png");
-    background-size: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
+.main {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 200px;
+  text-align: center;
+  background-image: url(/img/who.png);
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.opacity{
-    filter: opacity(30%);
-    text-transform: capitalize;
+.opacity {
+  filter: opacity(30%);
+  text-transform: capitalize;
 }
-.center{
-    width:98%;
-}
-
-.txt{
-    color:white;
+.center {
+  width: 98%;
 }
 
-.diseases{
-    background-color:#0F1391;
-    height:550px;
+.txt {
+  color: white;
 }
 
-.two{
-    margin-top: 20px;
+.diseases {
+  background-color: #0f1391;
+  height: 575px;
 }
 
-.branches{
-    background-image: url("/home/user/project/assignment/img/map.jpg");
-    height:600px;
-    color: black;
-    padding-top:50px; 
-    text-transform: capitalize;
+.two {
+  margin-top: 20px;
 }
 
-footer
-{
-  margin: 10px;
-  background-color:gray;
-  clear: both;
+.footer-col{
+     float:left;
+     margin-left:100px;
+}
+.branches {
+  background-image: url(/img/map.jpg);
+  height: 600px;
+  color: black;
+  padding-top: 50px;
+  text-transform: capitalize;
 }
 
-.sticky{
-    position:fixed;
-    top:0;
+footer {
+  width:100%;
+  padding:10px; 
+  height: 250px;
+  background-color: gray;
 }
 
-.vl{
-    height:200px
-}
-.indent{
-    margin-top: 30px;
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
-.move{
-    margin-left: 10px;
-    text-transform: capitalize;
+.vl {
+  height: 200px;
+}
+.indent {
+  margin-top: 30px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    text-transform: capitalize;
+.move {
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.video {
+  padding: 100px 400px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  text-transform: capitalize;
+}
+
+
+.button {
+  background-color:gray; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.testcss{
+    margin: 15px;
+}
+
+p{
+    text-align: justify;
 }
